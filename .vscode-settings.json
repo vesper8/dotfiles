@@ -1,0 +1,58 @@
+{
+    "blade.format.enable": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.tabCompletion": true,
+    "emmet.triggerExpansionOnTab": true,
+    "eslint.validate": [
+        "html",
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/public/dist/**": true
+    },
+    "git.enableSmartCommit": true,
+    "html.format.endWithNewline": true,
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.wrapLineLength": 0,
+    "macros": {
+        "commentLine": [
+            "editor.action.commentLine",
+            "cursorDown"
+        ]
+    },
+    "php.suggest.basic": false,
+    "prettier.disableLanguages": [
+        "vue"
+    ],
+    "prettier.printWidth": 0,
+    "prettier.tabWidth": 4,
+    "search.followSymlinks": false,
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vim.insertModeKeyBindings": [
+        {
+            "after": [
+                "<Esc>"
+            ],
+            "before": [
+                "j",
+                "j"
+            ]
+        }
+    ],
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Darcula",
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.config": "/Users/vesperknight/.vscode/.php_cs",
+    "workbench.editor.enablePreview": false,
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "explorer.confirmDelete": false
+}
